@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string longestCommonPrefix(const vector<string> &strs) {
+string LongestCommonPrefix(const vector<string> &strs) {
   string ans;
   if (strs.empty())
     return ans;
